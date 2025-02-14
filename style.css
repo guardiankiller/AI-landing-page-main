@@ -428,55 +428,6 @@ header a:hover {
 
 /* MOBILE RESPONSIVE */
 @media screen and (max-width: 700px) {
-    header ul {
-        display: none;
-    }
-
-    .hero h1 {
-        top: 6%;
-    }
-
-    .hero h3 {
-        font-size: 15px;
-        max-width: 350px;
-        line-height: 22px;
-    }
-
-    .hero button {
-        top: 32%;
-    }
-
-    .hero-image-box {
-        height: 250px;
-    }
-
-    .hero-image-box .element1 {
-        width: 140px;
-        height: 50px;
-        top: -15%;
-    }
-
-    .hero-image-box .element2 {
-        width: 140px;
-        height: 50px;
-    }
-
-    .hero h4 {
-        bottom: 18%;
-    }
-
-    .companies-list {
-        flex-wrap: wrap;
-        max-width: 400px;
-    }
-
-    .signin-page input {
-        height: 20px;
-    }
-}
-
-/* MOBILE REDMI NOTE 13PRO RESPONSIVE */
-@media screen and (max-width: 365px) {
     .head-left img {
         margin-right: 6px;
         height: 40px;
