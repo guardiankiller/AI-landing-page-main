@@ -429,7 +429,7 @@ header a:hover {
 /* MOBILE RESPONSIVE */
 @media screen and (max-width: 700px) {
     .head-left img {
-        margin-right: 6px;
+        margin-right: 10px;
         height: 40px;
     }
 
@@ -441,17 +441,13 @@ header a:hover {
         display: none;
     }
 
-    header a {
-        font-size: initial;
-    }
-
     .head-right .button-box {
-        width: 85px;
-        height: 40px;
+        width: 90px;
+        height: 45px;
     }
 
     .head-right button {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .hero h1 {
