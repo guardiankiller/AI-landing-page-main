@@ -478,8 +478,12 @@ header a:hover {
 /* MOBILE REDMI NOTE 13PRO RESPONSIVE */
 @media screen and (max-width: 365px) {
     .head-left img {
-        margin-right: 10px;
-        height: 45px;
+        margin-right: 6px;
+        height: 40px;
+    }
+
+    .head-left h1 {
+        font-size: 24px;
     }
 
     header ul {
