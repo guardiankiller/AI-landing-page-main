@@ -141,8 +141,8 @@ header a:hover {
 
 .hero h3 {
     position: absolute;
-    top: 22%;
-    font-size: 20px;
+    top: 24%;
+    font-size: 19px;
     max-width: 700px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
@@ -151,7 +151,7 @@ header a:hover {
 
 .hero button {
     position: absolute;
-    top: 30%;
+    top: 32%;
     border: none;
     background-color: white;
     color: black;
@@ -172,8 +172,8 @@ header a:hover {
 .hero-image-box {
     margin-top: 250px;
     position: relative;
-    width: 1000px;
-    height: 550px;
+    width: 800px;
+    height: 460px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -466,6 +466,76 @@ header a:hover {
     }
 
     .companies-list {
+        flex-wrap: wrap;
+        max-width: 400px;
+    }
+
+    .signin-page input {
+        height: 20px;
+    }
+}
+
+/* MOBILE REDMI NOTE 13PRO RESPONSIVE */
+@media screen and (max-width: 365px) {
+    .head-left img {
+        margin-right: 10px;
+        height: 45px;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    header a {
+        font-size: initial;
+    }
+
+    .head-right .button-box {
+        width: 85px;
+        height: 40px;
+    }
+
+    .head-right button {
+        font-size: 13px;
+    }
+
+    .hero h1 {
+        top: 6%;
+    }
+
+    .hero h3 {
+        top: 27%;
+        font-size: 15px;
+        max-width: 350px;
+        line-height: 22px;
+    }
+
+    .hero button {
+        top: 37%;
+    }
+
+    .hero-image-box {
+        margin-top: 300px;
+        height: 250px;
+    }
+
+    .hero-image-box .element1 {
+        width: 140px;
+        height: 50px;
+        top: -15%;
+    }
+
+    .hero-image-box .element2 {
+        width: 140px;
+        height: 50px;
+    }
+
+    .hero h4 {
+        bottom: 12%;
+    }
+
+    .companies-list {
+        bottom: 2%;
         flex-wrap: wrap;
         max-width: 400px;
     }
